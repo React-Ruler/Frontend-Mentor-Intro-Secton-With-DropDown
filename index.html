@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <section class="hero">
+      <!--hero head-->
+      <div class="hero-head">
+        <!-- header navigation -->
+        <header class="navbar is-transparent">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="assets/images/logo.svg" alt="Snap Logo" />
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroC" class="navbar-menu">
+              <div class="navbar-start">
+                <a class="navbar-item is-active"> Features </a>
+                <a class="navbar-item is-active"> Company </a>
+                <a class="navbar-item is-active"> Careers </a>
+              </div>
+              <div class="navbar-end">
+                <span class="navbar-item">
+                  <a class="button is-white"> Login </a>
+                </span>
+                <span class="navbar-item">
+                  <a class="button"> Register </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+      <!-- herobody -->
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <h1 class="title is-1 has-text-left">
+                <span>Make</span> remote work
+              </h1>
+              <p class="main-hero-paragrapgh subtitle is-5 has-text-left">
+                Get your team in sync, no matter your location. Streamline
+                processes, create team rituals, and watch productivity soar.
+              </p>
+              <button class="button">Learn more</button>
+              <div class="tile is-ancestor mt-6">
+                <div class="tile is-child">
+                  <img src="assets/images/client-databiz.svg" />
+                </div>
+                <div class="tile is-child">
+                  <img src="assets/images/client-audiophile.svg" />
+                </div>
+                <div class="tile is-child">
+                  <img src="assets/images/client-maker.svg" />
+                </div>
+                <div class="tile is-child">
+                  <img src="assets/images/client-meet.svg" />
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <img
+                src="assets/images/image-hero-desktop.png"
+                class="main-hero-desktop"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
